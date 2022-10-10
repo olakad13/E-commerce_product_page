@@ -58,6 +58,7 @@ mainImage.addEventListener("click", () => {
 
 menu.addEventListener("click",() => {
     navigation.classList.add("animate");
+    cartCard.style.display = "none";
 });
 
 navCloseBtn.addEventListener("click", () => {

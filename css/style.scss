@@ -280,7 +280,7 @@ body {
     transition-property: opacity, visibility;
     transition-duration: .5s;
     transition-timing-function: linear;
-    z-index: 5500;
+    z-index: 5100;
     & > header {
         border-bottom: 1px solid  rgba(182, 188, 200,0.5);
         padding: 1rem;
@@ -363,7 +363,7 @@ body {
 .light-box {
     position: fixed;
     background-color: rgba(0, 0, 0, .7);
-    z-index: 5000;
+    z-index: 7000;
     top: 0%;
     left: 0;
     right: 0;
@@ -443,7 +443,7 @@ body {
         top: 0;
         left: 0;
         background: rgba(0, 0, 0, 0.7);
-        z-index: 6000;
+        z-index: 5200;
         transform: translateX(-100vw);
         opacity: 0;
     }
