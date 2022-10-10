@@ -33,7 +33,7 @@ body {
   padding: 1.6em 0;
   margin: var(--body-margin);
   background-color: white;
-  z-index: 23;
+  z-index: 5200;
   position: fixed;
   left: 0;
   right: 0;
