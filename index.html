@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT PAGE</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="nav-and-logo-container">
+            <div>
+                <button id="menu"><img src="images/icon-menu.svg" alt=""></button>
+                <img src="images/logo.svg" alt="LOGO">
+            </div>
+            <div id="navigation" class="nav-background">
+                <nav class="nav-links-container">
+                    <a href="" class="nav-links">Collections</a>
+                    <a href="" class="nav-links">Men</a>
+                    <a href="" class="nav-links">Women</a>
+                    <a href="" class="nav-links">About</a>
+                    <a href="" class="nav-links">Contact</a>
+                    <img id="nav-close" class="nav-close" src="images/nav-close.svg" alt="close button icon">
+                </nav>
+            </div>
+        </div>
+
+        <div class="cart-and-userimage-container">
+            <img id="cart-icon" src="images/icon-cart.svg" alt="Cart logo">
+            <img id="image-avatar" src="images/image-avatar.png" alt="image avatar">
+            <div id="items-selected">0</div>
+        </div>
+    </header>
+
+    <main class="main-section-flex-container">
+        <div class="image-division">
+            <img id="main-image" src="images/image-product-1.jpg" alt="">
+            <div class="image-preview">
+                <img class="previews" src="images/image-product-1-thumbnail.jpg" alt="">
+                <img class="previews" src="images/image-product-2-thumbnail.jpg" alt="">
+                <img class="previews" src="images/image-product-3-thumbnail.jpg" alt="">
+                <img class="previews" src="images/image-product-4-thumbnail.jpg" alt="">
+            </div>
+            <button id="prev" class="floating-btn prev"><img src="images/icon-previous.svg" alt="Previous icon"></button>
+            <button id="next" class="floating-btn next"><img src="images/icon-next.svg" alt="next icon"></button>
+        </div>
+
+        <div class="product-decsription-section">
+            <div class="description-header">SNEAKER COMPANY</div>
+            <h1 class="h1">Fall Limited Edition Sneakers</h1>
+            <div class="paragraph"> These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+            </div>
+            <div class="price-section">
+                <div class="new-price-section">
+                    <span class="new-price">$125.00</span>
+                    <span class="discount">50%</span>
+                </div>
+                <span class="previous-price">$250.00</span>
+            </div>
+            
+            <div class="product-arithmetic-section">
+                <div class="addition-subtraction-panel">
+                    <img id="minus" src="images/icon-minus.svg" alt="-">
+                    <div id="no-of-items">0</div>
+                    <img id="plus" src="images/icon-plus.svg" alt="+">
+                </div>
+                <div id="add-to-cart-btn" class="button">
+                    <img src="images/icon-cart - white.svg" alt="CART">
+                    <div>Add to cart</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pop-up-container">
+            <header>Cart</header>
+            <div id="inner-div" class="inner-division">
+                
+            </div>
+        </div>
+
+        <div id="lightbox" class="light-box">
+            <div class="image-box">
+                <img id="lightbox-image" class="image-box-img" src="images/image-product-1.jpg" alt="">
+                <button id="lightbox-prev-btn" class="control-btn prev-btn">
+                    <img src="images/icon-previous.svg" alt="Previous icon">
+                </button>
+                <button id="lightbox-next-btn" class="control-btn next-btn">
+                    <img src="images/icon-next.svg" alt="next icon">
+                </button>
+                <button id="lightbox-close-btn" class="control-btn close-btn">
+                    <img src="images/icon-close.svg" alt="next icon">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="Js/index.js"></script>
+</body>
+</html>
