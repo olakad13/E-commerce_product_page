@@ -478,6 +478,16 @@ body {
     #menu {
         display: inline-block;
     }
+    .nav-links:hover::after {
+        content: "";
+        position: static;
+        width: 0;
+        height: 0.2rem;
+        background-color: transparent;
+        bottom: 0;
+        left: 0;
+        
+    }
 }
 
 @media only screen and (max-width: 600px) {
